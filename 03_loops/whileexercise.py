@@ -98,23 +98,44 @@ print("\nEjercicio 5:")
 # Imprime todos los números primos menores o iguales que N usando un bucle while.
 print("\nEjercicio 6:")
 
-numero = int(input("Ingrese un numero : "))
+# numero = int(input("Ingrese un numero : "))
 
-candidatos_primos = 2
-primos: list[int] = []
+# candidatos_primos = 2
+# primos: list[int] = []
 
-while candidatos_primos <= numero:
-    i = 1
-    cantidad_divisores = 0          # se reinicia para cada candidato
+# while candidatos_primos <= numero:
+#     i = 1
+#     cantidad_divisores = 0          # se reinicia para cada candidato
 
-    while i <= candidatos_primos:
-        if candidatos_primos % i == 0:
-            cantidad_divisores += 1     # aquí solo se cuenta
-        i += 1
+#     while i <= candidatos_primos:
+#         if candidatos_primos % i == 0:
+#             cantidad_divisores += 1     # aquí solo se cuenta
+#         i += 1
 
-    if cantidad_divisores == 2:         # aquí se decide
-        primos.append(candidatos_primos)
+#     if cantidad_divisores == 2:         # aquí se decide
+#         primos.append(candidatos_primos)
 
-    candidatos_primos += 1
+#     candidatos_primos += 1
 
-print(primos)
+# print(primos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
